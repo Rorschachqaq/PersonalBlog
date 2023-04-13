@@ -6,8 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
-    "netlify": "npm run clean && npm run build" //为netlify 建站铺垫 date:2023/4/13
+    "server": "hexo server",
+    "netlify": "npm run clean && npm run build"
   },
   "hexo": {
     "version": "6.3.0"
